@@ -332,4 +332,5 @@ Temporary Items
 !.vscode/extensions.json
 
 .idea/
+static/*
 !PLACEHOLDER
