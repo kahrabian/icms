@@ -4,3 +4,4 @@ psycopg2==2.7.1
 pylibmc==1.5.2
 django-jet==1.0.6
 feedparser==5.2.1
+Pillow==4.1.1

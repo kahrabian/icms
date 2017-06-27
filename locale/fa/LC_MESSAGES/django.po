@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-27 19:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: authentication/models.py:7 visage/models.py:12 visage/models.py:31
+#: visage/models.py:50
+msgid "user"
+msgstr "کاربر"
+
+#: authentication/models.py:8 visage/models.py:104 visage/models.py:109
+#: visage/models.py:114 visage/models.py:119 visage/models.py:124
+#: visage/models.py:129
+msgid "course"
+msgstr "درس"
+
+#: authentication/models.py:9 visage/models.py:14 visage/models.py:19
+#: visage/models.py:33 visage/models.py:38 visage/models.py:52
+#: visage/models.py:57
+msgid "score"
+msgstr "نمره"
+
+#: authentication/models.py:12
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: authentication/models.py:13
+msgid "Pass"
+msgstr "قبول"
+
+#: authentication/models.py:14
+msgid "Fail"
+msgstr "افتاده"
+
+#: authentication/models.py:15
+msgid "Abscense"
+msgstr "غایب"
+
+#: authentication/models.py:16
+msgid "Removal"
+msgstr "حذف"
+
+#: authentication/models.py:18
+msgid "state"
+msgstr "وضعیت"
+
+#: authentication/models.py:22
+msgid "base user"
+msgstr "کاربر پایه"
+
+#: authentication/models.py:23
+msgid "profile photo"
+msgstr "عکس پروفایل"
+
+#: authentication/models.py:24
+msgid "student number"
+msgstr "شماره دانشجویی"
+
+#: authentication/models.py:25
+msgid "entry date"
+msgstr "تاریخ ورود"
+
+#: authentication/models.py:28
+msgid "Student"
+msgstr "دانشجو"
+
+#: authentication/models.py:29
+msgid "Instructor"
+msgstr "استاد"
+
+#: authentication/models.py:30
+msgid "Teaching Assistant"
+msgstr "تدریس‌یار"
+
+#: authentication/models.py:32
+msgid "type"
+msgstr "نوع"
+
+#: authentication/models.py:35
+msgid "Male"
+msgstr "مرد"
+
+#: authentication/models.py:36
+msgid "Female"
+msgstr "زن"
+
+#: authentication/models.py:38
+msgid "sex"
+msgstr "جنسیت"
+
+#: authentication/models.py:40
+msgid "courses"
+msgstr "درس‌ها"
+
+#: visage/models.py:7 visage/models.py:13 visage/models.py:110
+msgid "project"
+msgstr "پروژه"
+
+#: visage/models.py:8 visage/models.py:27 visage/models.py:46
+#: visage/models.py:65 visage/models.py:77 visage/models.py:82
+#: visage/models.py:130
+msgid "content"
+msgstr "محتوا"
+
+#: visage/models.py:18 visage/models.py:37 visage/models.py:56
+#: visage/models.py:70
+msgid "title"
+msgstr "عنوان"
+
+#: visage/models.py:20 visage/models.py:58
+msgid "deadline"
+msgstr "ضرب‌الاجل"
+
+#: visage/models.py:21 visage/models.py:40 visage/models.py:59
+#: visage/models.py:72 visage/models.py:89 visage/models.py:94
+#: visage/models.py:100 visage/models.py:137
+msgid "description"
+msgstr "توضیحات"
+
+#: visage/models.py:22 visage/models.py:41 visage/models.py:60
+#: visage/models.py:73 visage/models.py:143
+msgid "contents"
+msgstr "محتوا"
+
+#: visage/models.py:26 visage/models.py:32 visage/models.py:115
+msgid "exam"
+msgstr "آزمون"
+
+#: visage/models.py:39 visage/models.py:71
+msgid "date"
+msgstr "تاریخ"
+
+#: visage/models.py:45 visage/models.py:51 visage/models.py:120
+msgid "excercise"
+msgstr "تمرین"
+
+#: visage/models.py:64 visage/models.py:125
+msgid "notification"
+msgstr "اعلانیه"
+
+#: visage/models.py:69
+msgid "poster"
+msgstr "اعلان‌کننده"
+
+#: visage/models.py:78 visage/models.py:87
+msgid "file"
+msgstr "فایل"
+
+#: visage/models.py:83
+msgid "tag"
+msgstr "برچسب"
+
+#: visage/models.py:88
+msgid "upload date"
+msgstr "تاریخ بارگزاری"
+
+#: visage/models.py:93 visage/models.py:135
+msgid "name"
+msgstr "نام"
+
+#: visage/models.py:98
+msgid "files"
+msgstr "فایل‌ها"
+
+#: visage/models.py:99
+msgid "tags"
+msgstr "برچسب‌ها"
+
+#: visage/models.py:105
+msgid "teaching assistant"
+msgstr "تدریس‌یار"
+
+#: visage/models.py:134
+msgid "instructor"
+msgstr "استاد"
+
+#: visage/models.py:136
+msgid "credit"
+msgstr "واحد"
+
+#: visage/models.py:139
+msgid "exams"
+msgstr "آزمون‌ها"
+
+#: visage/models.py:140
+msgid "projects"
+msgstr "پروژه‌ها"
+
+#: visage/models.py:141
+msgid "exercises"
+msgstr "تمرین‌ها"
+
+#: visage/models.py:142
+msgid "notifications"
+msgstr "اعلانیه‌ها"
+
+#: visage/models.py:145
+msgid "teaching assistants"
+msgstr "تدریس‌یارها"

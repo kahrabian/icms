@@ -333,4 +333,5 @@ Temporary Items
 
 .idea/
 static/*
+media/*
 !PLACEHOLDER
