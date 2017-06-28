@@ -17,6 +17,10 @@ class UserCourse(models.Model):
     )
     state = models.CharField(verbose_name=_('state'), max_length=1, choices=STATE_CHOICES, default='U', null=False)
 
+    class Meta:
+        verbose_name = _('user course')
+        verbose_name_plural = _('user courses')
+
 
 class User(models.Model):
     base_user = models.OneToOneField(DjangoUser, verbose_name=_('base user'))
@@ -38,3 +42,7 @@ class User(models.Model):
     sex = models.CharField(verbose_name=_('sex'), max_length=1, choices=TYPE_CHOICES, default='M', null=False)
 
     courses = models.ManyToManyField('visage.Course', verbose_name=_('courses'), through=UserCourse)
+
+    class Meta:
+        verbose_name = _('user')
+        verbose_name_plural = _('users')
